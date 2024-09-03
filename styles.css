@@ -2,9 +2,10 @@
     width: 440px;
     height: 440px;
     border-radius: 50%;
-    
+
 }
-.foto1{
+
+.foto1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,6 +27,21 @@
     border-radius: 40px;
 }
 
-.descricao{
+.descricao {
     font-size: 48px;
 }
+
+.Filmes img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    justify-content: space-around;
+}
+
+.Filmes {
+    display: flex;
+    justify-content: space-around;
+}
+    .Hobbies{
+        font-size: 40px;
+    }
